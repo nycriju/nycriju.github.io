@@ -1,0 +1,66 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#aboutme {
+    text-align: center;
+}
+
+.profiles {
+    background-color: white;
+    font-size: 3em;
+    width: 33%;
+    border: 3px solid red;
+}
+
+a {
+    color: coral;
+}
+
+a:hover {
+    color: magenta;
+}
+
+h2 {
+    background-color: aquamarine;
+    text-decoration: underline;
+    color: black;
+}
+
+
+h2::selection {
+    color: aquamarine;
+    background-color: #FF7FAA;
+}
+
+h2:nth-of-type(2n) {
+    background-color: salmon;
+}
+
+h2:nth-of-type(2n)::selection {
+    color: salmon;
+    background-color: #057f8d;
+}
+
+h2::first-letter {
+    color: brown;
+    text-decoration: none;
+}
+
+main ul li::selection {
+    color: black;
+    background-color: white;
+}
+
+#footer {
+    text-align: center;
+}
