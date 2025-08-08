@@ -1,2 +1,4 @@
 # riju-world
-personal portfolio
+- personal portfolio
+- made w/ html and css
+- will likely be updated in the future(?)
